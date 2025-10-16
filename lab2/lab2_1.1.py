@@ -1,6 +1,6 @@
 from itertools import product
 
-# DNA bases
+# DNAs
 bases = ['A', 'C', 'G', 'T']
 
 #dinucleotide combinations (2-mers)
