@@ -1,0 +1,1 @@
+This folder is dedicated to 3rd lab of bioinformatics class. 16 Oct 2025, Kaan Ugur 1242EA
