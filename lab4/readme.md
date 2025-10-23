@@ -2,4 +2,4 @@ This files are dedicated for Bioinformatics lab4, to convert codons to amino aci
 
 Contributors: Ugur Kaan, Arhir Tudor, Buga Mihai 1242EA.
 
-You can find also find the screenshots of the each outputs. 
+You could also find the screenshots of the each outputs. 
