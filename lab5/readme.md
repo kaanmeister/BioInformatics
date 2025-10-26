@@ -9,4 +9,3 @@ dna_sequence = 'ACGTACGTACGTACGTACGTACGT' * 100
 You can find output on `random_reads.txt`.
 
 Ugur Kaan 1242EA.
-```
