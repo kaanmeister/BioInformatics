@@ -7,6 +7,12 @@ Professor Gagniuc: https://github.com/Gagniuc
 
 This folder is dedicated to Bioinformatics Class lab8. 20 November 2025. 
 
+For the exercise 2, please check:
+
+```
+te_results.csv file
+```
+
 ```
 Ugur Kaan 1242EA
 ```
