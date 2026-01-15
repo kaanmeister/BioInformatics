@@ -17,7 +17,7 @@ Predicts the state of a vector over 5 discrete steps using an arbitrary square m
 ### Execution
 Run the following script:
 
-    python assignment1_prediction.py
+    python ex1.py
 
 ### Outputs
 The script creates a folder named `assignment_results` containing the following visualizations:
@@ -37,7 +37,7 @@ Generates a random 50-letter DNA sequence and computes the transition probabilit
 ### Execution
 Run the following script:
 
-    python assignment2_dna.py
+    python ex2.py
 
 ### Outputs
 * **Console:** Prints the generated sequence and the formatted probability matrix.
@@ -52,7 +52,7 @@ Analyzes an English text (approx. 300 characters), maps unique words to ASCII sy
 ### Execution
 Run the following script:
 
-    python assignment3_text.py
+    python ex3.py
 
 ### Outputs
 * **Console:** Prints the input text, token count, and a sample of the symbol legend.
