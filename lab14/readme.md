@@ -14,9 +14,10 @@ This repository contains solutions for two distinct problems using **Markov Chai
 2.  **Log-Odds Matrix:** A 4x4 matrix was constructed where each cell represents the log-ratio of observing a specific nucleotide transition (e.g., A → C) in an island versus a non-island. Laplace smoothing (+1) was applied to handle zero-frequency transitions.
 3.  **Scoring:** A test sequence `S` ("CAGGTTGGAAACGTAA") was scored by summing the log-likelihood values of its transitions.
 
-**Outputs:**
-* `log_likelihood_heatmap.png`: A visual heatmap of the 4x4 transition matrix. Red indicates transitions typical of CpG islands; Blue indicates transitions typical of background DNA.
-* **Console Output:** The final classification of sequence `S` (Positive/Negative).
+**Output Visualization:**
+*Below is the Log-Likelihood Matrix heatmap. Red cells indicate transitions strongly associated with CpG Islands, while blue cells indicate background DNA.*
+
+![Log Likelihood Matrix Heatmap](log_likelihood_heatmap.png)
 
 ---
 
@@ -30,11 +31,19 @@ This repository contains solutions for two distinct problems using **Markov Chai
 2.  **Log-Likelihood Matrix:** A 27x27 matrix (alphabet + space) was generated to capture the "signature" transitions of each author.
 3.  **Sliding Window Analysis:** The accused text was scanned using a 30-character sliding window. The cumulative log-score of each window determines the likely author for that segment.
 
-**Outputs:**
-* `plagiarism_detection_smooth.png`: A smoothed line graph showing the authorship probability over the text.
-    * **Red Zones (>0):** High probability of Eminescu's style.
-    * **Blue Zones (<0):** High probability of Stănescu's style.
-* `stylometry_matrix.png`: A heatmap visualization of the character transition probabilities.
+**Output Visualizations:**
+
+*1. Plagiarism Analysis Graph*
+*The graph below shows the authorship probability over the text. Red zones (>0) indicate Eminescu's style, while blue zones (<0) indicate Stănescu's style.*
+
+![Plagiarism Detection Analysis](plagiarism_detection_smooth.png)
+
+*2. Stylometry Matrix*
+*A heatmap of the character transition probabilities used to differentiate the authors.*
+
+![Stylometry Matrix](stylometry_matrix.png)
+
+---
 
 ## How to Run
 
